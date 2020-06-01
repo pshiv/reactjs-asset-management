@@ -1,0 +1,75 @@
+.entry-form {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 35px;
+    margin-top: 14px;
+
+    .asset-income {
+        display: inline-flex;
+        width: 100%;
+        padding: 10px;
+
+        div {
+            width: 33%;
+            display: inline-flex;
+
+            label {
+                width: 80px;
+                display: inline-flex;
+                line-height: 40px;
+            }
+
+            input {
+                width: 80px;
+                height: 40px;
+                text-align: center;
+            }
+        }
+    }
+
+    .name-input {
+        div {
+            width: 100%;
+            display: inline-flex;
+
+            label {
+                width: 92px;
+                display: inline-flex;
+                line-height: 40px;
+            }
+
+            input {
+                width: 85%;
+                height: 40px;
+            }
+        }
+    }
+
+    .asset-label {
+        display: inline-flex;
+        width: 100%;
+        padding: 10px;
+
+        div {
+            width: 100%;
+            display: inline-flex;
+
+            label {
+                width: 94px;
+                display: inline-flex;
+                line-height: 40px;
+            }
+
+            input {
+                width: 80%;
+                height: 40px;
+            }
+        }
+    }
+
+    .chip-wrapper {
+        margin-bottom: 3rem;
+        border: 1px solid #bfbebe;
+        padding: 10px;
+    }
+}
